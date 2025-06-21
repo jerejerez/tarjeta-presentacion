@@ -23,17 +23,34 @@ img{
 
 .sobre-mi{
     display: flex;
-    justify-content:right;
+    flex-direction: column;
+    justify-content: center;
     background-color: beige;
-    float: inline-end;
+    height: 30vh;
+    width: 100vh;
+    float: right;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    border-radius: 5%;
+    text-align: center;
+}
 
 
+.sobre-mi h2{
 
 }
 
 .ocupacion{
     background-color: brown;
     display: flex;
-    justify-content: right;
-    float:right;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vh;
+    width: 100vh;
+    float: right;
+    margin-right: 20px;
+    margin-top: -300px;
+    border-radius: 5%;
+    text-align: center;
 }
