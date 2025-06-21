@@ -22,9 +22,18 @@ img{
 }
 
 .sobre-mi{
+    display: flex;
+    justify-content:right;
     background-color: beige;
+    float: inline-end;
+
+
+
 }
 
 .ocupacion{
     background-color: brown;
+    display: flex;
+    justify-content: right;
+    float:right;
 }
